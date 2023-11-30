@@ -16,6 +16,8 @@ public class Tugas3_01 {
     public static boolean cetakPrimaRekursif(int n, int pembagi){
         if (n <= 1){
             return false;
+        } else if ( pembagi > n / 2){
+            return true;
         } else if (n % pembagi == 0) {
             return false;
         } else {
